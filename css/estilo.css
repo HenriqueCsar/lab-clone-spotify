@@ -86,12 +86,21 @@ nav.navbar-transparente{
 }
 
 
-
+#conteudo{
+    background:white;
+}
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
     .display-1 {
         font-size: 2rem;
+    }
+    .btn-roxo{
+        margin-bottom: 0.2rem;
+    }
+    .celular{margin:0.8rem}
+    .divisor{
+        height:1px;
     }
  }
 
@@ -99,6 +108,9 @@ nav.navbar-transparente{
 @media (min-width: 576px) and (max-width: 767.98px) { 
     .display-1 {
         font-size: 3rem;
+    }
+    .btn-roxo{
+
     }
  }
 
