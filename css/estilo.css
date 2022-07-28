@@ -1,0 +1,124 @@
+/*
+*@author Henrique César da Silva
+
+* Histórico de alteração:
+    20220727, Henrique: Desenvolvimento inicial do projeto do spotify 
+ 
+*/
+
+body, html, #home{
+    height:100%;
+}
+
+
+body{
+    background: url('../imagens/capa.png'),
+                url('../imagens/ruido.png'),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+}
+
+
+nav.navbar-transparente{
+    background: rgba(0,0,0,0.6);
+    padding:15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgba(169, 149, 149, 0.931);
+}
+
+
+/* BUTTON TOGGLE */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+
+.divisor{
+    width:1px;
+    background:white;
+    margin:13px 15px;
+}
+
+.capa-home{
+    text-align: center;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 350;
+    line-height: 1.2;
+    color:white;
+}
+
+.btn-custom{
+    color:rgb(255, 255, 255);
+    border-radius:500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.6s, color 0.6s;
+    padding:10px 15px;
+    border:1px solid rgba(255, 255, 255, 0.294);
+}
+
+.btn-roxo:hover{
+    color:rgb(255, 255, 255);
+    background: #7e26f88a;
+}
+
+.btn-roxo{
+    background: #7c26f8;
+}
+
+
+.btn-branco:hover{
+    color:rgb(255, 255, 255);
+    background: #ebe6f28a;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .display-1 {
+        font-size: 2rem;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .display-1 {
+        font-size: 3rem;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .display-1 {
+        font-size: 4rem;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .display-1 {
+        font-size: 5rem;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .display-1 {
+        font-size: 6rem;
+    }
+ }
