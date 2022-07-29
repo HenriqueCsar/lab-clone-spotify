@@ -18,8 +18,13 @@ body{
 }
 
 
+footer{
+    background:#000000;
+    padding:50px;
+}
+
 nav.navbar-transparente{
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.715);
     padding:15px 0px;
 }
 
@@ -88,6 +93,11 @@ nav.navbar-transparente{
 
 #conteudo{
     background:white;
+    padding:50px;
+}
+
+.img-fluid{
+    margin-top:10px;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
